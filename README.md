@@ -44,6 +44,7 @@ MINIO_SECRET_KEY=tu_password
 # Google Drive
 GOOGLE_DRIVE_PARENT_FOLDER_ID=ID_DE_LA_CARPETA_DESTINO
 GOOGLE_OAUTH_CREDENTIALS=credentials.json
+GOOGLE_OAUTH_TOKEN=token.json
 ```
 
 *Nota: Para obtener el `ID_DE_LA_CARPETA_DESTINO`, abre la carpeta en tu navegador y copia la última parte de la URL.*

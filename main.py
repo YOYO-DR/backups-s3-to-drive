@@ -25,7 +25,7 @@ DRIVE_PARENT_ID = os.getenv("GOOGLE_DRIVE_PARENT_FOLDER_ID")
 
 # Archivos de credenciales OAuth2
 CREDENTIALS_FILE = os.getenv("GOOGLE_OAUTH_CREDENTIALS") # El JSON descargado de Google Console (Desktop App)
-TOKEN_FILE = "token.json" # Se generará automáticamente la primera vez
+TOKEN_FILE = os.getenv("GOOGLE_OAUTH_TOKEN", "token.json") # Se generará automáticamente la primera vez
 
 # Configuración Minio S3
 MINIO_URL = os.getenv("MINIO_ENDPOINT")
