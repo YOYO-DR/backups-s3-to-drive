@@ -1,0 +1,11 @@
+.env
+backups/
+*.json
+__pycache__/
+.venv/
+node_modules/
+dist/
+build/
+*.log
+creds/
+token.json
