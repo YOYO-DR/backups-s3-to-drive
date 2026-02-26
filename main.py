@@ -208,6 +208,7 @@ def main():
     if LOCAL_BACKUP_DIR.exists():
         print(f"Limpiando archivos temporales en {LOCAL_BACKUP_DIR}...")
         shutil.rmtree(LOCAL_BACKUP_DIR)
+        print("Archivos temporales eliminados.")
 
 if __name__ == "__main__":
     main()
