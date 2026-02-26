@@ -27,7 +27,7 @@ Este script automatiza el proceso de respaldar archivos desde buckets de **Minio
     ```bash
     python3 -m venv .venv
     source .venv/bin/activate
-    pip install boto3 google-api-python-client google-auth-httplib2 google-auth-oauthlib python-dotenv
+    pip install -r requirements.txt
     ```
 3.  Configura el archivo `.env` (ver sección de Configuración).
 
